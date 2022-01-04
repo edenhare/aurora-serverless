@@ -1,0 +1,33 @@
+ python3 sample2.py
+2021-01-03 14:48:06.343964 sleeping to catch cluster with 0 capacity units
+2021-01-03 14:48:07.017072 sleeping 300 seconds capacity = 2
+2021-01-03 14:53:07.904688 capacity = 0
+2021-01-03 14:53:07.904768 retry: 0
+2021-01-03 14:53:12.175057 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 14:53:12.175204 capacity = 2
+2021-01-03 14:53:12.175307 retry: 1
+2021-01-03 14:53:15.975521 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 14:53:15.975770 capacity = 2
+2021-01-03 14:53:15.975983 retry: 2
+2021-01-03 14:53:19.541751 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 14:53:19.541849 capacity = 2
+2021-01-03 14:53:19.541938 retry: 3
+2021-01-03 14:53:23.262152 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 14:53:23.262249 capacity = 2
+2021-01-03 14:53:23.262345 retry: 4
+2021-01-03 14:53:27.003953 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 14:53:27.004160 capacity = 2
+2021-01-03 14:53:27.004371 retry: 5
+2021-01-03 14:53:27.752905 {'ResponseMetadata': {'RequestId': '176bdaac-e057-422c-8bb1-78b9322a54c8', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '176bdaac-e057-422c-8bb1-78b9322a54c8', 'content-type': 'application/json', 'content-length': '72', 'date': 'Sun, 03 Jan 2021 20:53:27 GMT'}, 'RetryAttempts': 0}, 'numberOfRecordsUpdated': 0, 'records': [[{'stringValue': 'assessments'}]]}
+done
+

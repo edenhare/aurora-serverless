@@ -1,0 +1,7 @@
+{
+   "database": "DATABASE-NAME",
+   "includeResultMetadata": "true",
+   "resourceArn": "RESOURCE-ARN",
+   "secretArn": "SECRET-MANAGER-ARN",
+   "sql": "show tables;"
+}

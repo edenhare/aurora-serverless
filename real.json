@@ -1,0 +1,7 @@
+{
+   "database": "paei",
+   "resourceArn": "arn:aws:rds:us-east-1:548985610555:cluster:paei",
+   "secretArn": "arn:aws:secretsmanager:us-east-1:548985610555:secret:paei-rds-YFVbvv",
+   "sql": "select * from assessments;"
+}
+

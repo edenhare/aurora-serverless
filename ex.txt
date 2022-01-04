@@ -1,0 +1,39 @@
+ ✘ pi@pi1  ~/code/aurora-serverless  python3 sample1.py
+2021-01-03 12:10:36.031966 sleeping to catch cluster with 0 capacity units
+2021-01-03 12:10:36.591049 sleeping 300 seconds capacity = 2
+2021-01-03 12:15:37.358364 capacity = 0
+2021-01-03 12:15:37.358511 retry: 0
+2021-01-03 12:15:41.650442 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 12:15:41.650558 capacity = 2
+2021-01-03 12:15:41.650662 retry: 1
+2021-01-03 12:15:45.542283 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 12:15:45.542518 capacity = 2
+2021-01-03 12:15:45.542707 retry: 2
+2021-01-03 12:15:49.322221 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 12:15:49.322404 capacity = 2
+2021-01-03 12:15:49.322583 retry: 3
+2021-01-03 12:15:53.019510 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 12:15:53.019610 capacity = 2
+2021-01-03 12:15:53.019701 retry: 4
+2021-01-03 12:15:56.689720 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 12:15:56.689899 capacity = 2
+2021-01-03 12:15:56.690063 retry: 5
+2021-01-03 12:16:00.303917 exception: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-01-03 12:16:00.305247 capacity = 2
+2021-01-03 12:16:00.305848 retry: 6
+2021-01-03 12:16:01.021148 {'ResponseMetadata': {'RequestId': 'c42d661e-0694-46d9-aa71-5c7571a27a61', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'c42d661e-0694-46d9-aa71-5c7571a27a61', 'content-type': 'application/json', 'content-length': '72', 'date': 'Sun, 03 Jan 2021 18:16:00 GMT'}, 'RetryAttempts': 0}, 'numberOfRecordsUpdated': 0, 'records': [[{'stringValue': 'assessments'}]]}
+done
+ pi@pi1  ~/code/aurora-serverless  
+

@@ -1,0 +1,13 @@
+python3 sample1.py
+Traceback (most recent call last):
+  File "sample1.py", line 14, in <module>
+    sql = 'show tables')
+  File "/usr/local/lib/python3.7/dist-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/botocore/client.py", line 676, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.BadRequestException: An error occurred (BadRequestException) when calling the ExecuteStatement operation: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+ ✘ pi@pi1  ~/code/aurora-serverless  
+
